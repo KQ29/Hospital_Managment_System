@@ -12,8 +12,8 @@ public class EmailUtility {
 		properties.put("mail.smtp.host", "smtp.gmail.com"); // Gmail SMTP server
 		properties.put("mail.smtp.port", "587"); // Port for TLS/STARTTLS
 
-		final String username = "kamronbekibra2005@gmail.com"; // Your Gmail address
-		final String password = "prbm ulft rnao hkjo"; // Your Gmail password or app-specific password
+		final String username = ""; // Your Gmail address
+		final String password = ""; // Your Gmail password or app-specific password
 
 		Session session = Session.getInstance(properties, new javax.mail.Authenticator() {
 			protected PasswordAuthentication getPasswordAuthentication() {
